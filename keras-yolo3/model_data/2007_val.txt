@@ -1,0 +1,13 @@
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1324.jpg 23,7,76,100,2
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1282.jpg 26,9,70,99,2
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1317.jpg 9,10,85,99,1
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1290.jpg 18,16,58,80,0
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1296.jpg 15,2,90,100,1
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1324.jpg 23,7,76,100,2
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1317.jpg 9,10,85,99,1
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1307.jpg 18,4,89,98,1
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1285.jpg 13,4,81,98,1
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1296.jpg 15,2,90,100,1
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1314.jpg 24,3,73,99,2
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1322.jpg 22,5,73,86,0
+/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/VOCDevkit/VOC2007/JPEGImages/IMG_1285.jpg 13,4,81,98,1

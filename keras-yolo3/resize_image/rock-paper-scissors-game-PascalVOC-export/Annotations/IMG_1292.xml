@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>IMG_1292.jpg</filename>
+    <path>rock-paper-scissors-game-PascalVOC-export/Annotations/IMG_1292.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>320</width>
+        <height>320</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>scissors</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>28.64651773981603</xmin>
+        <ymin>7.347240473061761</ymin>
+        <xmax>61.660643889618925</xmax>
+        <ymax>98.3180026281209</ymax>
+    </bndbox>
+</object>
+</annotation>

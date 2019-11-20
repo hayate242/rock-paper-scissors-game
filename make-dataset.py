@@ -48,16 +48,23 @@ def augmentedImage(img):
 
 if __name__ == "__main__":
     img = cv2.imread('./dataset/rock/IMG_1118.JPG', cv2.IMREAD_COLOR)
-    # img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    # img = Image.open('./dataset/rock/IMG_1118.JPG')
-    color_range = colorRange(img)
-    gaussian_noise = addGaussianNoise(img)
-    augmented_img = augmentedImage(img)
-    print(color_range)
+    rows, cols, channels = img.shape
+    # HSVに変換
+    img2 = cv2.cvtColor(img, cv2.COLOR_BGR2HSV_FULL)
+    cv2.imshow('original2', img2)
+
+    # color_range = colorRange(img2)
+    # dst = cv2.add(img, color_range)
+    # print(dst)
+    # img[0:rows, 0:cols] = dst
+    # cv2.imshow('exracted hand', img)
+    # gaussian_noise = addGaussianNoise(color_range)
+    # augmented_img = augmentedImage(img)
+    # print(color_range)
 
     # cv2.namedWindow('drifting!!')
-    cv2.imshow('original drifting!!', img)
-    cv2.imshow('original drifting!!', color_range)
+    cv2.imshow('original', img)
+    # cv2.imshow('color_range', color_range)
     # cv2.imshow('gaussian_noise!!', gaussian_noise)
     # cv2.imshow('augmented_img!!', augmented_img)
     # cv2.imshow('edged!!', edge)
