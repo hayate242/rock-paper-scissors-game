@@ -1,5 +1,7 @@
 """
 Retrain the YOLO model for your own dataset.
+# how to start
+# python train.py 320 8
 """
 
 
@@ -14,10 +16,10 @@ from yolo3.model import preprocess_true_boxes, yolo_body, tiny_yolo_body, yolo_l
 from yolo3.utils import get_random_data
 import sys
 
-# from load_backend import control_flow_ops
-# from load_backend import set_image_dim_ordering
 
 import tensorflow as tf
+# import os
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 def _main():
     annotation_path = 'model_data/2007_train.txt'
