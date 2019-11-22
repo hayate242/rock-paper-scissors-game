@@ -1,2 +1,2 @@
 #/bin/sh
-python train.py 320 8
+python train.py 320 2
