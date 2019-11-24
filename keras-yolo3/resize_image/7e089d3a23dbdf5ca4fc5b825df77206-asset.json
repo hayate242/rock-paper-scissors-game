@@ -1,0 +1,49 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "7e089d3a23dbdf5ca4fc5b825df77206",
+        "name": "IMG_4195.jpg",
+        "path": "file:/Users/nakayama/repositories/rock-paper-scissors-game/keras-yolo3/resize_image/IMG_4195.jpg",
+        "size": {
+            "width": 320,
+            "height": 320
+        },
+        "state": 2,
+        "type": 1,
+        "predicted": true
+    },
+    "regions": [
+        {
+            "id": "lkKP6iASh",
+            "type": "RECTANGLE",
+            "tags": [
+                "scissors"
+            ],
+            "boundingBox": {
+                "height": 86.1481603153745,
+                "width": 47.71681997371879,
+                "left": 29.091655716162943,
+                "top": 11.9661629434954
+            },
+            "points": [
+                {
+                    "x": 29.091655716162943,
+                    "y": 11.9661629434954
+                },
+                {
+                    "x": 76.80847568988173,
+                    "y": 11.9661629434954
+                },
+                {
+                    "x": 76.80847568988173,
+                    "y": 98.1143232588699
+                },
+                {
+                    "x": 29.091655716162943,
+                    "y": 98.1143232588699
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
