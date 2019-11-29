@@ -14,19 +14,22 @@ def resize_images(images_dir, image_save_dir, image_size):
     for img_path in img_paths:
         # resize
         image = Image.open(img_path)
-        rgb_im = image.convert('RGB')
-        rgb_im.thumbnail([image_size,image_size])
+        # rgb_im = image.convert('RGB')
+        # rgb_im.thumbnail([image_size,image_size])
 
-        # make background
-        back_ground = Image.new("RGB", (image_size,image_size), color=(255,255,255))
-        back_ground.paste(rgb_im)
+        # # make background
+        # back_ground = Image.new("RGB", (image_size,image_size), color=(255,255,255))
+        # back_ground.paste(rgb_im)
 
         # make path
         save_path = os.path.join(image_save_dir, os.path.basename(img_path))
         end_index = save_path.rfind('.')
         save_path = save_path[0:end_index]+'.jpg'
         print('save',save_path)
-        back_ground.save(save_path,quality=95,format='JPEG')
+        # back_ground.save(save_path,quality=95,format='JPEG')
+        img_resize = image.resize((image_size, image_size))
+        img_resize.save(save_path)
+
 
 
 def _main():
